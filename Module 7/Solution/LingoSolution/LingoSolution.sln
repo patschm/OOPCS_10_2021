@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLingo", "ConsoleLingo\ConsoleLingo.csproj", "{5915A7C2-26F8-4AF9-94D4-73B448060408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingoGame", "LingoGame\LingoGame.csproj", "{ABA08A66-7DF7-41AE-8BF4-FEDEF64629F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebLingo", "WebLingo\WebLingo.csproj", "{07D8E2BA-7E3E-4D2A-A19F-70A81AAED7B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5915A7C2-26F8-4AF9-94D4-73B448060408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5915A7C2-26F8-4AF9-94D4-73B448060408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5915A7C2-26F8-4AF9-94D4-73B448060408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5915A7C2-26F8-4AF9-94D4-73B448060408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA08A66-7DF7-41AE-8BF4-FEDEF64629F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA08A66-7DF7-41AE-8BF4-FEDEF64629F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA08A66-7DF7-41AE-8BF4-FEDEF64629F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA08A66-7DF7-41AE-8BF4-FEDEF64629F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07D8E2BA-7E3E-4D2A-A19F-70A81AAED7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07D8E2BA-7E3E-4D2A-A19F-70A81AAED7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07D8E2BA-7E3E-4D2A-A19F-70A81AAED7B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07D8E2BA-7E3E-4D2A-A19F-70A81AAED7B8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

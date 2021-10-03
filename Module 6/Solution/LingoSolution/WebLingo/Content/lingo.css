@@ -1,0 +1,25 @@
+﻿.word {
+    font-size: 48px;    
+}
+
+    .word>div {
+        border-radius: 100%;
+        display: inline;
+        padding: 5px 20px 10px;
+        margin-right: 10px;
+    }
+
+.default {
+    background-color: blue;
+    color: yellow;
+}
+
+.exact {
+    background-color: green;
+    color: yellow;
+}
+
+.partial {
+    background-color: yellow;
+    color: black;
+}
