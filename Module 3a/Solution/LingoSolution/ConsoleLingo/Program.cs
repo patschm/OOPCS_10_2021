@@ -21,6 +21,8 @@ namespace ConsoleLingo
 
         static void Main(string[] args)
         {
+           
+
             // TODO 5b: Change the string to LingoWord
             LingoWord wordToBeGuessed = GenerateWord();
 #if DEBUG

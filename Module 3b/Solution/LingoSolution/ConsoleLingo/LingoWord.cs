@@ -36,7 +36,7 @@ namespace ConsoleLingo
         {
             for(int i = 0; i < internalWord.Length; i++)
             {
-                this.internalWord[i].Draw();
+                this[i].Draw();
             }
             Console.WriteLine();
         }
@@ -56,7 +56,7 @@ namespace ConsoleLingo
             this.internalWord = new LingoCharacter[word.Length];
             for(int i = 0; i < word.Length;i++)
             {
-                this.internalWord[i] = new LingoCharacter(word[i], i);
+                this[i] = new LingoCharacter(word[i], i);
             }
         }
     }

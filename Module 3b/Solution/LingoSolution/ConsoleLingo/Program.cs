@@ -18,6 +18,8 @@ namespace ConsoleLingo
         static void Main(string[] args)
         {
             LingoWord wordToBeGuessed = GenerateWord();
+
+            //wordToBeGuessed[2] = new LingoCharacter('x', 2);
 #if DEBUG
             wordToBeGuessed.Show();
 #endif
