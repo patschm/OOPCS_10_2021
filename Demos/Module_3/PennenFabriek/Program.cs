@@ -4,7 +4,12 @@ using System;
 
 namespace PennenFabriek
 {
-    class Pen
+    interface IWritable
+    {
+        void Schrijf(string text);
+    }
+
+    class Pen : IWritable
     {
         // Fields. Hierin slaan we de eigenschappen van een object op.
         private int lineWidth = 1;
@@ -66,13 +71,14 @@ namespace PennenFabriek
     {
         static void Main(string[] args)
         {
-            //IHost host = Host.CreateDefaultBuilder().ConfigureServices(list =>{
-            //    list.AddTransient<Pen, Pen>();
-            //}).Build();
+            IHost host = Host.CreateDefaultBuilder().ConfigureServices(list =>
+            {
+                list.AddTransient<IWritable, Pen>();
+            }).Build();
 
-            //Pen px = host.Services.GetRequiredService<Pen>();
-            //px.lineColor = ConsoleColor.Gray;
-            //px.Schrijf("Hoi");
+            IWritable px = host.Services.GetRequiredService<IWritable>();
+            //px.LineColor = ConsoleColor.Gray;
+            px.Schrijf("Hoi");
 
             Pen obj = new Pen(ConsoleColor.Red, 3);
             //obj.SetLineWidth(20);
